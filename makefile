@@ -14,5 +14,6 @@ main.o: main.c my_mat.c my_mat.h
 
 .PHONY: clean all
 
+
 clean:
 		rm -f *.o *.so lib_my_mat.a connections
