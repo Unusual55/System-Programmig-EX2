@@ -3,13 +3,12 @@
 
 #define TRUE 1
 #define FALSE 0
-#define N 10
+#define N 3
 
 extern int matrix[N][N];
-extern int dist[N];
+extern int vertex[N][N];
 
 void create_matrix();
-
 
 void floyd_warshall();
 

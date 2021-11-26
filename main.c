@@ -3,6 +3,7 @@
 #include<limits.h>
 
 int matrix[N][N];
+int vertex[N][N];
 
 int main(){
     char inp=' ';

@@ -2,13 +2,11 @@
 #include "my_mat.h"
 #include <limits.h>
 
-int dist[N];
 
 void create_matrix()
 {
     for (int i = 0; i < N; i++)
     {
-        dist[i] = INT_MAX;
         for (int j = 0; j < N; j++)
         {
             matrix[i][j] = 0;
