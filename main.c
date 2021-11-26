@@ -19,7 +19,7 @@ int main(){
             scanf("%d", &j);
             floyd_warshall(i,j);
             if(inp=='B'){
-                if(matrix[i][j]==0){
+                if(vertex[i][j]==0){
                     printf("False\n");
                 }
                 else{
@@ -27,7 +27,12 @@ int main(){
                 }
             }
             else{
-                printf("%d\n", matrix[i][j]);
+                if(vertex[i][j]==0){
+                    printf("-1\n");
+                }
+                else{
+                    printf("%d\n", vertex[i][j]);
+                }
             }
         }
         else if(inp == 'D'){
