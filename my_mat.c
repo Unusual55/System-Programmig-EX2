@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
-#include <my_mat.h>
+#include "my_mat.h"
 
 int dist[N];
 
@@ -12,7 +12,7 @@ void create_matrix()
         for (int j = 0; j < N; j++)
         {
             matrix[i][j] = 0;
-            scanf("%d", &matrix[i + N * j]);
+            scanf("%d", &matrix[i][j]);
         }
     }
 }

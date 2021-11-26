@@ -1,5 +1,9 @@
 #include<stdio.h>
-#include<my_mat.h>
+#include "my_mat.h"
+#include<limits.h>
+
+int matrix[N][N];
+
 int main(){
     char inp=' ';
     int i = 0;
